@@ -1,0 +1,218 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+.head{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+    margin-bottom: 20px;
+}
+/* body{
+    background-color: #f4f6f9;
+} */
+.text{
+    font-size:15px;
+}
+.body{
+    padding:5px;
+}
+a{
+    text-decoration: none;
+}
+#text,.branch,.sem{
+    display: flex;
+}
+#heading1{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#heading2{
+    font-weight:bold;
+    font-size:28px;
+}
+.buttons{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+#profile,#detalis,#about{
+    border: 1px solid rgb(158, 156, 156);
+    font-size:15px;
+}
+#profile{
+    height:340px;
+    width:200px;
+    padding: 20px;
+    border-radius: 3%;
+    border-top: 4px solid blue;
+}
+#photo,#name,#id{
+    margin-bottom: 5px;
+}
+#box{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.branch,.sem{
+    border-top: 0.8px solid rgb(158, 156, 156);
+    justify-content:space-between;
+    padding:10px;
+}
+.sem{
+    border-bottom: 0.8px solid rgb(158, 156, 156);
+}
+#photo,#box,.branch,.sem,#profile,#detalis,#about{
+    background-color: #fff;
+}
+#photo{
+    height:140px;
+    width: 100px;
+    border-radius: 50%;
+    border:5px solid #d1d1d1;
+}
+img{
+    border: 20px;
+}
+#detalis{
+    width:100%;
+    height:550px;
+    border-radius: 0.8%;
+    margin-top: 10px;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    width: 100px;
+    color:rgb(159, 159, 159); 
+    font-size:15px;
+    font-weight: bold;
+    border-radius: 5%;
+}
+.but:hover{
+    color:#fff; 
+    background-color: #9b280a;
+}
+.but:active{
+    color: #fff;
+    background-color:#007bff;
+}
+.buttons{
+    border-bottom:2px solid rgb(158, 156, 156);
+}
+#about{
+    height:320px;
+    width:240px;
+    border-radius: 3%;
+    border-top: 4px solid blue ;
+    margin-left: 8px;
+}
+#title{
+    height:45px;
+    background-color: blue;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+#profile,#detalis{
+    margin: 10px;
+}
+#item{
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#email,#phone,#adress{
+    padding:10px;
+    margin-bottom: 8px;
+}
+#email,#phone{
+    border-bottom:1px solid rgb(158, 156, 156);
+}
+#mail,#mobile,#ad{
+    font-size: 20px;
+}
+@media  (min-width:620px) {
+    #todivs{
+        display:flex;
+    }
+    #about{
+        margin: -200px 0 80px 10px;
+        /* position: absolute; */
+        width:28%;
+    }
+    #profile{
+        width:39%;
+    }
+}
+@media (max-width:440px) {
+    #heading1,#heading2{
+        font-size: 100%;
+    }
+    .but{
+        height:30px;
+        width:75px;
+    }
+    #about{
+        margin-left:1rem ;
+    }
+    #title{
+        height:40px;
+    }
+    .name{
+        padding-right:10px
+    }
+}
+/*deatils table*/
+.bold,.tbold{
+    font-weight: bolder;
+}
+.tbold{
+    padding:2px 5px 2px 20px;
+    width: 150px;
+} 
+.name,.tbold{
+    border-top: 0.5px  solid  rgb(158, 156, 156);
+}
+#stdid,#studentid,#class,#classid,#hostelname,#hostelid{
+    border:none;
+}
+#table1{
+    width:99%;
+    height:480px;
+    border: 1px  solid  rgb(158, 156, 156);
+}
+#table2,#table3{
+    width:99%;
+    height:150px;
+    border: 1px  solid  rgb(158, 156, 156);
+}
+@media (min-width:450px){
+    #details{
+        height: auto;
+        width:50%;
+    }
+    .padding{
+        padding:1% 4% 1% 4%;
+    }
+}
+#padding2,#padding3{
+  display:none;
+}
+.home2{
+  height:100%;
+  background-color:#f4f6f9;
+}
+@media only screen and (max-width: 880px) {
+  .home2{
+    margin-left:0px;
+  }
+}
